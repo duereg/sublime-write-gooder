@@ -7,7 +7,7 @@
       {
         "id": "write-gooder",
         "caption": "WriteGooder",
-        "command": "write-gooder"
+        "command": "write_gooder"
       }
     ]
   },

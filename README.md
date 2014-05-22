@@ -12,7 +12,7 @@ Simple grammar checking for your documentation.
 
 ##Install write-gooder with npm
 
-    npm install -g write-gooder
+  npm install -g write-gooder
 
 ##Install WriteGooder with Package Control in Sublime Text 2
 
