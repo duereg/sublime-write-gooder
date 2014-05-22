@@ -5,7 +5,7 @@ import sublime_plugin
 import re
 import os
 
-SETTINGS_FILE = 'write-gooder.sublime-settings'
+SETTINGS_FILE = 'WriteGooder.sublime-settings'
 
 class WriteGooderCommand(sublime_plugin.TextCommand):
   def run(self, edit):
