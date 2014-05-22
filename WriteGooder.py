@@ -13,7 +13,7 @@ class WriteGooderCommand(sublime_plugin.TextCommand):
     cmd = settings.get('write-gooder', 'write-gooder')
 
     filepath = self.view.file_name()
-    packages = sublime.packages_path()
+
     args = {
       "cmd": [
         cmd,
@@ -36,5 +36,5 @@ class WriteGooderOnSave(sublime_plugin.EventListener):
     if settings.get('run_on_save', False) == False:
       return
     if re.search(settings.get('filename_filter'), view.file_name()):
-      view.window().run_command("write-gooder")
+      view.window().run_command("write_gooder")
       return
