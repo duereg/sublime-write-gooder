@@ -5,9 +5,9 @@
     "id": "tools",
     "children": [
       {
-        "id": "write-gooder",
-        "caption": "write-gooder",
-        "command": "write-gooder"
+        "id": "writeGooder",
+        "caption": "WriteGooder",
+        "command": "writeGooder"
       }
     ]
   },
@@ -22,19 +22,19 @@
         "id": "package-settings",
         "children": [
           {
-            "caption": "write-gooder",
+            "caption": "WriteGooder",
             "children": [
               {
                 "command": "open_file",
                 "args": {
-                  "file": "${packages}/write-gooder/write-gooder.sublime-settings"
+                  "file": "${packages}/WriteGooder/WriteGooder.sublime-settings"
                 },
                 "caption": "Settings – Default"
               },
               {
                 "command": "open_file",
                 "args": {
-                  "file": "${packages}/User/write-gooder.sublime-settings"
+                  "file": "${packages}/User/WriteGooder.sublime-settings"
                 },
                 "caption": "Settings – User"
               },
@@ -44,7 +44,7 @@
               {
                 "command": "open_file",
                 "args": {
-                  "file": "${packages}/write-gooder/Default.sublime-keymap"
+                  "file": "${packages}/WriteGooder/Default.sublime-keymap"
                 },
                 "caption": "Key Bindings – Default"
               },

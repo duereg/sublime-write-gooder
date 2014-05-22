@@ -1,5 +1,5 @@
 [{
-  "id": "write-gooder",
-  "caption": "write-gooder",
-  "command": "write-gooder"
+  "id": "writeGooder",
+  "caption": "WriteGooder",
+  "command": "writeGooder"
 }]
