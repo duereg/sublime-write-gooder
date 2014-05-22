@@ -1,4 +1,4 @@
-#write-gooder for Sublime Text
+#WriteGooder for Sublime Text
 
 Simple grammar checking for your documentation.
 
@@ -14,27 +14,27 @@ Simple grammar checking for your documentation.
 
     npm install -g write-gooder
 
-##Install write-gooder with Package Control in Sublime Text 2
+##Install WriteGooder with Package Control in Sublime Text 2
 
 1. `command`-`shift`-`P` *or* `control`-`shift`-`P` in Linux/Windows*
 2. type `install p`, select `Package Control: Install Package`
-3. type `write-gooder`, select `write-gooder`
+3. type `WriteGooder`, select `WriteGooder`
 
-**Note:** Without Sublime Package Control, you could manually copy this project to your Packages directory as 'write-gooder'.
+**Note:** Without Sublime Package Control, you could manually copy this project to your Packages directory as 'WriteGooder'.
 
-##Run write-gooder on an active JavaScript file in Sublime Text
+##Run WriteGooder on an active JavaScript file in Sublime Text
 
-- `control`-`shift`-`V` *or Tools/Contextual menus or the Command Palette*
+- `control`-`shift`-`W` *or Tools/Contextual menus or the Command Palette*
 - `F4` jump to next error row/column
 - `shift`-`F4` jump to previous error row-column
 
 ##Settings
 
-* Navigate to **Preferences > Package Settings > write-gooder > Settings - Default**.
+* Navigate to **Preferences > Package Settings > WriteGooder > Settings - Default**.
 * To preserve custom settings:
-  * copy default settings to **Preferences > Package Settings > write-gooder > Settings - User**
+  * copy default settings to **Preferences > Package Settings > WriteGooder > Settings - User**
   * modify them to your requirements
 
-##Run write-gooder on save
+##Run WriteGooder on save
 
-By default, write-gooder does not run on save. To change, simply change the setting `run_on_save` for the project to `true`.
+By default, WriteGooder does not run on save. To change, simply change the setting `run_on_save` for the project to `true`.
