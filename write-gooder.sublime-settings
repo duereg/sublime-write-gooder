@@ -1,0 +1,23 @@
+{
+    // if true, run write-gooder on save.
+    "run_on_save" : false
+
+    // a regex string to determine whether jslint
+    // should be run on a file.
+    // if a match is found (i.e. re.search(filename_filter, filename)),
+    // the file will be linted.
+    ,"filename_filter": "(\\.md)$"
+
+    // write-gooder command you want to run
+    // E.g.: "write-gooder" or "/usr/local/bin/write-gooder" or "node myvalidator.js"
+    // ,"write-gooder" : "write-gooder"
+
+    // if your own personal choice of write-gooder has an output
+    // different from the standard which comes with this package,
+    // you may have to change line_regex and file_regex
+    // check http://docs.sublimetext.info/en/latest/reference/build_systems.html
+    // to find out how these regular expressions work. The defaults are:
+
+    // ,"line_regex" : ".*// Line ([0-9]*), Pos ([0-9]*)$"
+    // ,"file_regex" : "(^[^# ]+.*$)"
+}

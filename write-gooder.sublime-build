@@ -1,0 +1,22 @@
+{
+  "selector": "source.md",
+
+  "cmd": [
+    "write-gooder",
+    "$file"
+  ],
+
+  "file_regex": "write-gooder: (.+)\\]",
+  "line_regex": "line (\\d+), column (\\d+): (.*)$",
+
+  "osx": {
+    "path": "/usr/local/share/npm/bin:/usr/local/bin:/opt/local/bin"
+  },
+
+  "windows": {
+    "cmd": [
+      "write-gooder.cmd",
+      "$file"
+    ]
+  }
+}
