@@ -19,14 +19,14 @@ class WriteGooderCommand(sublime_plugin.TextCommand):
         cmd,
         filepath
       ],
-      'line_regex': settings.get('line_regex', r"line (\d+) column (\d+): (.*)$"),
+      'line_regex': settings.get('line_regex', r"line (\d+) column (\d+) (.*)$"),
       'file_regex': settings.get('file_regex', r"write-gooder (.+)\]")
     }
 
     if sublime.platform() == "windows":
       args['cmd'][0] += ".cmd"
     elif sublime.platform() == "osx":
-      args['path'] = "/usr/local/share/npm/bin:/usr/local/bin:/opt/local/bin:/opt/boxen/nodenv/shims"
+      args['path'] = "/usr/local/share/npm/bin:/usr/local/bin:/opt/local/bin:/opt/boxen/nodenv/shims:/usr/bin"
 
     self.view.window().run_command('exec', args)
 

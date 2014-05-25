@@ -7,10 +7,10 @@
   ],
 
   "file_regex": "write-gooder: (.+)\\]",
-  "line_regex": "line (\\d+), column (\\d+): (.*)$",
+  "line_regex": "line (\\d+) column (\\d+) (.*)$",
 
   "osx": {
-    "path": "/usr/local/share/npm/bin:/usr/local/bin:/opt/local/bin"
+    "path": "/usr/local/share/npm/bin:/usr/local/bin:/opt/local/bin:/opt/boxen/nodenv/shims:/usr/bin"
   },
 
   "windows": {
