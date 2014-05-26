@@ -4,7 +4,7 @@ Simple grammar checking for your documentation.
 
 **Prerequisites:** [write-gooder](http://github.com/duereg/write-good) and [Sublime Package Control](http://wbond.net/sublime_packages/package_control/installation)
 
-**Mac OS X:** Installing node with homebrew or macports is assumed. The path to write-gooder is hardcoded in this plugin as `/usr/local/share/npm/bin:/usr/local/bin:/opt/local/bin`. There is no reliable way to get the path from your environment.
+**Mac OS X:** Installing node with homebrew or macports is assumed. The path to write-gooder is hardcoded in this plugin as `/usr/local/share/npm/bin:/usr/local/bin:/opt/local/bin`. You can change the path to the executable in settings.
 
 **Linux:** Make sure write-gooder is in your environment path.
 
@@ -14,7 +14,7 @@ Simple grammar checking for your documentation.
 
   npm install -g write-gooder
 
-##Install WriteGooder with Package Control in Sublime Text 2
+##Install WriteGooder with Package Control in Sublime Text
 
 1. `command`-`shift`-`P` *or* `control`-`shift`-`P` in Linux/Windows*
 2. type `install p`, select `Package Control: Install Package`
@@ -33,7 +33,7 @@ Simple grammar checking for your documentation.
 * Navigate to **Preferences > Package Settings > WriteGooder > Settings - Default**.
 * To preserve custom settings:
   * copy default settings to **Preferences > Package Settings > WriteGooder > Settings - User**
-  * modify them to your requirements
+  * change them to your requirements
 
 ##Run WriteGooder on save
 
