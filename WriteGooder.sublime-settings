@@ -18,6 +18,6 @@
     // check http://docs.sublimetext.info/en/latest/reference/build_systems.html
     // to find out how these regular expressions work. The defaults are:
 
-    // ,"line_regex" : ".*// Line ([0-9]*), Pos ([0-9]*)$"
-    // ,"file_regex" : "(^[^# ]+.*$)"
+    // ,'line_regex': "line (\d+) column (\d+)$",
+    // ,"file_regex" : "write-gooder (.+)\]"
 }

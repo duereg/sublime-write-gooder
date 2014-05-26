@@ -19,7 +19,7 @@ class WriteGooderCommand(sublime_plugin.TextCommand):
         cmd,
         filepath
       ],
-      'line_regex': settings.get('line_regex', r"line (\d+) column (\d+) (.*)$"),
+      'line_regex': settings.get('line_regex', r"line (\d+) column (\d+)$"),
       'file_regex': settings.get('file_regex', r"write-gooder (.+)\]")
     }
 
