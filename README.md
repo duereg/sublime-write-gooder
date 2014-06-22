@@ -22,7 +22,7 @@ Simple grammar checking for your documentation.
 
 **Note:** Without Sublime Package Control, you could manually copy this project to your Packages directory as 'WriteGooder'.
 
-##Run WriteGooder on an active JavaScript file in Sublime Text
+##Run WriteGooder on an active Markdown file in Sublime Text
 
 - `control`-`shift`-`W` *or Tools/Contextual menus or the Command Palette*
 - `F4` jump to next error row/column
