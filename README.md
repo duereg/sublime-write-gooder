@@ -2,7 +2,7 @@
 
 Simple grammar checking for your documentation.
 
-**Prerequisites:** [write-gooder](http://github.com/duereg/write-good) and [Sublime Package Control](http://wbond.net/sublime_packages/package_control/installation)
+**Prerequisites:** [write-gooder](http://github.com/duereg/write-gooder) and [Sublime Package Control](http://wbond.net/sublime_packages/package_control/installation)
 
 **Mac OS X:** Installing node with homebrew or macports is assumed. The path to write-gooder is hardcoded in this plugin as `/usr/local/share/npm/bin:/usr/local/bin:/opt/local/bin`. You can change the path to the executable in settings.
 
@@ -37,4 +37,4 @@ Simple grammar checking for your documentation.
 
 ##Run WriteGooder on save
 
-By default, WriteGooder does not run on save. To change, simply change the setting `run_on_save` for the project to `true`.
+By default, WriteGooder does not run on save. To change, update the setting `run_on_save` for the project to `true`.
