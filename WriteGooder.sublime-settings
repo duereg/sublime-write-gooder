@@ -6,7 +6,7 @@
     // should be run on a file.
     // if a match is found (i.e. re.search(filename_filter, filename)),
     // the file will be linted.
-    ,"filename_filter": "(\\.md)$"
+    ,"filename_filter": "(\\.txt|md)$"
 
     // write-gooder command you want to run
     // E.g.: "write-gooder" or "/usr/local/bin/write-gooder" or "node myvalidator.js"
